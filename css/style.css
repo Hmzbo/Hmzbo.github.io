@@ -294,19 +294,19 @@ img { max-width: 100%; height: auto; }
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-family: var(--font-heading);
     margin-bottom: 1.5rem;
     color: var(--accent-color);
 }
 
 .hero-description {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-bottom: 2.5rem;
     max-width: 600px;
     margin-left: auto;
@@ -1661,7 +1661,9 @@ a.blog-card:hover {
         height: 200px;
     }
     :root { --header-height: 4.5rem; }
-    .hero-title { font-size: 2.5rem; }
+    .hero-title { font-size: 3rem; }
+    .hero-subtitle { font-size: 1.25rem; }
+    .hero-description { font-size: 1.1rem; }
     .section-title h2 { font-size: 2rem; }
     .project-card { grid-template-columns: 1fr; }
     .project-image { height: 200px; }
