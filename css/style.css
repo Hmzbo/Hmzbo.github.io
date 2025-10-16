@@ -296,7 +296,7 @@ img { max-width: 100%; height: auto; }
 .hero-title {
     font-size: 4rem;
     margin-bottom: 1rem;
-    text-wrap-mode: nowrap;
+    white-space: nowrap; 
 }
 
 .hero-subtitle {
@@ -1662,7 +1662,7 @@ a.blog-card:hover {
         height: 200px;
     }
     :root { --header-height: 4.5rem; }
-    .hero-title { font-size: 3rem; text-wrap-mode: wrap;}
+    .hero-title { font-size: 3rem; white-space: normal;}
     .hero-subtitle { font-size: 1.25rem; }
     .hero-description { font-size: 1.1rem; }
     .section-title h2 { font-size: 2rem; }
