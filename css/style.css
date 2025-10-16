@@ -1662,7 +1662,7 @@ a.blog-card:hover {
         height: 200px;
     }
     :root { --header-height: 4.5rem; }
-    .hero-title { font-size: 3rem; }
+    .hero-title { font-size: 3rem; text-wrap-mode: wrap;}
     .hero-subtitle { font-size: 1.25rem; }
     .hero-description { font-size: 1.1rem; }
     .section-title h2 { font-size: 2rem; }
